@@ -35,17 +35,21 @@ const App = () => {
   return (
     <Layout className="App">
       <Header className="App-header">
-        <h1>FHIR Kit: Create React App</h1>
+        <h1>FHIR: React App</h1>
       </Header>
       <Content className="App-content">
         <Row>
           <Col span={10} offset={7}>
-            <p>This is an example React app generated with the
+            <p>This is an example React App that connects to an open FHIR server.</p>
+            <p>Retreives basic Patient Information from Patient Resource.</p>
+          </Col>
+          {/* <Col span={10} offset={7}>
+            <p>This is an example React app generated with the 
               <a
                 href="https://github.com/Vermonster/fhir-kit-create-react"
                 rel="noopener noreferrer"
                 target="_blank"
-                title="FHIRKit Create React App repo"> FHIRKit Create React App</a>
+                title="FHIRKit Create React App repo"> FHIRKit Create React App </a>
               template. The generated Node.js backend uses
               <a
                 href="https://github.com/Vermonster/fhir-kit-client"
@@ -53,7 +57,7 @@ const App = () => {
                 target="_blank"
                 title="FHIRKit Client repo">FHIRKit Client</a>
               to search an open FHIR server.</p>
-          </Col>
+          </Col> */}
         </Row>
         <h2>Patient Name Search Example</h2>
         <Search
