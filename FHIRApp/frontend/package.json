@@ -4,10 +4,10 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
-    "antd": "^3.26.20",
+    "antd": "^4.24.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "^3.4.4"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
